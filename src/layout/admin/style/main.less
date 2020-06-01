@@ -1,0 +1,64 @@
+.main {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  display: grid;
+}
+
+.cell(@color: '') {
+  box-sizing: border-box;
+  background: @color;
+  position: relative;
+}
+
+.logo {
+  .cell();
+  overflow: hidden;
+  text-align: center;
+  grid-area: logo;
+  display: flex;
+  align-items: center;
+  h1 {
+    display: inline-block;
+    margin: 0;
+    flex: 1;
+  }
+}
+
+.header {
+  .cell();
+  overflow: hidden;
+  grid-area: header;
+
+  display: flex;
+  align-items: center;
+}
+.nav {
+  .cell();
+  overflow: auto;
+  grid-area: nav;
+}
+.content {
+  .cell();
+  overflow: auto;
+  grid-area: content;
+  // .contentInner {
+  //   background: red;
+  // }
+}
+.aside {
+  .cell();
+  overflow: auto;
+  grid-area: aside;
+}
+.footer {
+  .cell();
+  overflow: hidden;
+  grid-area: footer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
