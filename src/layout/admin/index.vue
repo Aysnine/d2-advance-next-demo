@@ -18,7 +18,8 @@
     <section :class="[$style.content, themeStyles.content]">
       <div :class="[$style.contentInner, themeStyles.contentInner]">
         <section class="section">
-          <h1>colorful admin layout by grid</h1>
+          <h2>D2 Advance Next Demo</h2>
+          <i>colorful admin layout by grid</i>
           <p>
             <label>
               <span class="un-select">Theme：</span>
