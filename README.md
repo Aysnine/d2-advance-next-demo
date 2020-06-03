@@ -1,4 +1,4 @@
-# grid-demo
+# d2-advance-next-demo
 
 ## Project setup
 ```
